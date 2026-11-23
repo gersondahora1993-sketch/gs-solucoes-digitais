@@ -1,0 +1,24 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+npm-debug.log*
+
+# Deps / build (futuro, se virar Node/Vite)
+node_modules/
+dist/
+build/
+.vercel
+.netlify
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Temp
+*.tmp
+*.bak
